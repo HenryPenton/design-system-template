@@ -41,7 +41,8 @@
           "**/*.stories.*"
         ],
         "rules": {
-          "import/no-anonymous-default-export": "off"
+          "import/no-anonymous-default-export": "off",
+          "react/no-typos": "off"
         }
       }
     ]
@@ -61,6 +62,7 @@
   "devDependencies": {
     "@parcel/packager-ts": "^2.2.0",
     "@parcel/transformer-svg-react": "^2.2.0",
+    "@parcel/transformer-typescript-tsc": "^2.2.0",
     "@parcel/transformer-typescript-types": "^2.2.0",
     "@storybook/addon-actions": "^6.4.13",
     "@storybook/addon-essentials": "^6.4.13",

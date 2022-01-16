@@ -3,6 +3,9 @@
   "transformers": {
     "*.svg": [
       "@parcel/transformer-svg-react"
+    ],
+    "*.{ts,tsx}": [
+      "@parcel/transformer-typescript-tsc"
     ]
   }
 }
